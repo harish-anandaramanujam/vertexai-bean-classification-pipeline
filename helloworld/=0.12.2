@@ -1,0 +1,42 @@
+Collecting shapely==1.8.5.post1
+  Downloading Shapely-1.8.5.post1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (43 kB)
+Collecting pygeos==0.12.0
+  Downloading pygeos-0.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Collecting geopandas
+  Downloading geopandas-1.1.1-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: numpy>=1.13 in /opt/conda/lib/python3.10/site-packages (from pygeos==0.12.0) (2.1.3)
+Requirement already satisfied: pyogrio>=0.7.2 in /opt/conda/lib/python3.10/site-packages (from geopandas) (0.11.0)
+Requirement already satisfied: packaging in /opt/conda/lib/python3.10/site-packages (from geopandas) (25.0)
+Requirement already satisfied: pandas>=2.0.0 in /opt/conda/lib/python3.10/site-packages (from geopandas) (2.3.0)
+Requirement already satisfied: pyproj>=3.5.0 in /opt/conda/lib/python3.10/site-packages (from geopandas) (3.7.1)
+INFO: pip is looking at multiple versions of geopandas to determine which version is compatible with other requirements. This could take a while.
+  Downloading geopandas-1.1.0-py3-none-any.whl.metadata (2.3 kB)
+  Downloading geopandas-1.0.1-py3-none-any.whl.metadata (2.2 kB)
+  Downloading geopandas-1.0.0-py3-none-any.whl.metadata (2.2 kB)
+  Downloading geopandas-0.14.4-py3-none-any.whl.metadata (1.5 kB)
+Collecting fiona>=1.8.21 (from geopandas)
+  Downloading fiona-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (56 kB)
+Requirement already satisfied: attrs>=19.2.0 in /opt/conda/lib/python3.10/site-packages (from fiona>=1.8.21->geopandas) (25.3.0)
+Requirement already satisfied: certifi in /opt/conda/lib/python3.10/site-packages (from fiona>=1.8.21->geopandas) (2025.4.26)
+Requirement already satisfied: click~=8.0 in /opt/conda/lib/python3.10/site-packages (from fiona>=1.8.21->geopandas) (8.2.1)
+Collecting click-plugins>=1.0 (from fiona>=1.8.21->geopandas)
+  Downloading click_plugins-1.1.1.2-py2.py3-none-any.whl.metadata (6.5 kB)
+Collecting cligj>=0.5 (from fiona>=1.8.21->geopandas)
+  Downloading cligj-0.7.2-py3-none-any.whl.metadata (5.0 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/conda/lib/python3.10/site-packages (from pandas>=2.0.0->geopandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/conda/lib/python3.10/site-packages (from pandas>=2.0.0->geopandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /opt/conda/lib/python3.10/site-packages (from pandas>=2.0.0->geopandas) (2025.2)
+Requirement already satisfied: six>=1.5 in /opt/conda/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas>=2.0.0->geopandas) (1.17.0)
+Downloading Shapely-1.8.5.post1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (2.0 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.0/2.0 MB[0m [31m43.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading pygeos-0.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.2 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.2/2.2 MB[0m [31m95.4 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading geopandas-0.14.4-py3-none-any.whl (1.1 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/1.1 MB[0m [31m53.8 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading fiona-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/17.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m17.0/17.3 MB[0m [31m170.9 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m17.3/17.3 MB[0m [31m62.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading click_plugins-1.1.1.2-py2.py3-none-any.whl (11 kB)
+Downloading cligj-0.7.2-py3-none-any.whl (7.1 kB)
+Installing collected packages: shapely, pygeos, cligj, click-plugins, fiona, geopandas
+[?25l[2K   [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1/6[0m [pygeos][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m4/6[0m [fiona][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m4/6[0m [fiona][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m4/6[0m [fiona][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m4/6[0m [fiona][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m4/6[0m [fiona][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m5/6[0m [geopandas][2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m5/6[0m [geopandas][2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6/6[0m [geopandas]
+[?25h[1A[2KSuccessfully installed click-plugins-1.1.1.2 cligj-0.7.2 fiona-1.10.1 geopandas-0.14.4 pygeos-0.12.0 shapely-1.8.5.post1
