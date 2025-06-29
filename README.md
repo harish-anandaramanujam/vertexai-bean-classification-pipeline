@@ -7,8 +7,7 @@ This project demonstrates how to build an end-to-end machine learning pipeline o
 ## 📖 Overview
 
 - **Dataset:** UCI Dry Beans dataset  
-  [Source Paper](https://doi.org/10.1016/j.compag.2020.105507)
-- **Goal:** Classify beans into 7 types using tabular features and deploy the model if it meets evaluation thresholds.
+- **Goal:** Build a Kubeflow pipeline to classify beans into 7 types using tabular features and deploy the model if it meets evaluation thresholds.
 
 ---
 
