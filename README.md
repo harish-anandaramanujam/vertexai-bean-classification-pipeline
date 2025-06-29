@@ -67,7 +67,7 @@ Open `vertexai-advanced.ipynb` in JupyterLab or Google Cloud Vertex AI Workbench
 ---
 
 ## Pipeline
-![Vertex AI Bean Classification Pipeline](assets/vertexai-bean-classification-pipeline.png)
+![Vertex AI Bean Classification Pipeline](assets/bean-training.png)
 
 ---
 
